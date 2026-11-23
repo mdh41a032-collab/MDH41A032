@@ -1,0 +1,97 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{background-color: rgb(205, 231, 255);}
+
+header{
+    background-color: rgb(160, 255, 215);
+    height: 80px;
+    width: 100%;
+    position: fixed;}
+    h1{color: rgb(184, 255, 102);
+    position: absolute;
+    left: 120px;
+    top:0;
+line-height: 80px;
+background-image:url(IMAGE/12.svg);
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 210px;
+text-indent: -9999%;}
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+ line-height: 80px;
+}
+header li{
+    display: inline;
+    margin: 4vw;
+}
+header a{
+color: black;
+text-decoration: none;
+}
+header a:hover{
+    text-decoration:underline;  
+}
+.Strength{
+  background-color: rgb(7, 30, 51);
+    color: rgb(137, 202, 94);
+    height: 95vh;
+    background-image:url(image/8.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Strength h2{
+    font-size: 40px;
+    margin-top: 60px;
+}
+.Strength p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 25px 0px;
+}
+.Strength a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px #b0c7eb solid;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+.slogan{
+    background-color: rgb(180, 226, 149);
+    color: rgb(255, 255, 255); 
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    line-height: 1.8em;
+}
+
+.shop{
+display: flex;
+}
+.shop img{
+    width: 50%;
+}
+.info{
+    width: 50%;
+    background-color: #b0c7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product div{
+    width:300px ;
+    text-align: center;
+}
